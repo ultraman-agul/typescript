@@ -1,0 +1,24 @@
+{
+    "include": [
+        "./src/**/*",
+    ],
+    // "exclude": [
+    //     "./src/**/*"
+    // ],
+    "compilerOptions": {
+        "target": "ES6", // 编译后的目标js版本
+        "lib": [
+            "DOM",
+            "ES6"
+        ], // 代码运行中包含的库（运行环境）
+        "module": "AMD", // 编译后代码使用的模块化系统
+        "outDir": "dist", // 编译后生成文件存放目录
+        "outFile": "dist/app.js", // 编译后的js合并到一个js文件里，如果module为system、None、AMD则会将模块一起合并
+        "rootDir": "./src", // 指定根目录
+        "allowJs": true, // 是否对js文件进行编译
+        "checkJs": true, // 是否对js文件进行检查
+        "removeComments": true, // 是否删除注释
+        "noEmit": false, // 是否不对代码编译成js，默认为false
+        "noEmitOnError": true, // 是否当报错时不对代码进行编译，默认为false
+    }
+}
