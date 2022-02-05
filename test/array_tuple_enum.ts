@@ -1,5 +1,7 @@
 let arr: string[]
 arr = ['as', 'fdf', 'sdf']
+// let arr2: Array<number>
+// let arr2: number[]
 let arr2: Array<number>
 arr2 = [123, 454, 5, 7, 2, 65]
 

@@ -4,7 +4,7 @@ objs = { age: 1234 }
 let obj1: { name: string }
 obj1 = {
     name: 'asd',
-    // age:123
+    // age: '123',
 }
 
 let obj2: {
@@ -21,4 +21,9 @@ obj2 = {
 let fna: (a: number, b: number) => number
 fna = function (c, d) {
     return 1231
+}
+
+let fnb = (a:number, b: string): string => {
+    console.log(a+b)
+    return a + b
 }
